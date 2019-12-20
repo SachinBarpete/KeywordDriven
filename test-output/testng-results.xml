@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18872" started-at="2019-12-20T12:55:12 IST" finished-at="2019-12-20T12:55:31 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18872" started-at="2019-12-20T12:55:12 IST" finished-at="2019-12-20T12:55:31 IST">
+      <class name="com.bridgelabz.hubspot.test.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.bridgelabz.hubspot.test.LoginTest@5b87ed94]" name="loginTest" duration-ms="13466" started-at="2019-12-20T12:55:12 IST" finished-at="2019-12-20T12:55:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="signUpTest()[pri:0, instance:com.bridgelabz.hubspot.test.LoginTest@5b87ed94]" name="signUpTest" duration-ms="5369" started-at="2019-12-20T12:55:26 IST" finished-at="2019-12-20T12:55:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+      </class> <!-- com.bridgelabz.hubspot.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
