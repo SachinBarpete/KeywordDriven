@@ -6,7 +6,7 @@ import com.bridgelabz.keyword.engine.KeywordEngine;
 
 /**
  * @author Sachin Barpete
- * @purpose Tests for login and sign up 
+ * @purpose Tests for login and sign up
  */
 public class LoginTest {
 	public KeywordEngine keywordEngine;

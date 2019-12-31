@@ -57,8 +57,8 @@ public class Base {
 	public Properties initializeProperties() {
 		properties = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("/home/bridglabz/eclipse-workspace/KeywordDriven"
-					+ "/src/main/java/com/bridgelabz/keyword/config/config.properties");
+			FileInputStream ip = new FileInputStream(
+					System.getProperty("user.dir") + "/src/main/java/com/bridgelabz/keyword/config/config.properties");
 			properties.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

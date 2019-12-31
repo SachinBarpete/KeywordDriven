@@ -29,8 +29,8 @@ public class KeywordEngine {
 	public static Workbook book;
 	public static Sheet sheet;
 
-	public final String SCENARIO_SHEET_PATH = "/home/bridglabz/eclipse-workspace/"
-			+ "KeywordDriven/src/main/java/com/bridgelabz/keyword/scenarios/HubSpot.xlsx";
+	public final String SCENARIO_SHEET_PATH = System.getProperty("user.dir")
+			+ "/src/main/java/com/bridgelabz/keyword/scenarios/HubSpot.xlsx";
 
 	public void startExecution(String sheetName) {
 
